@@ -4,22 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(BirdCount.LastWeek());
         }
     }
-    class Lasagna
-    {
-        // TODO: define the 'ExpectedMinutesInOven()' method
-        public static TimeOnly ExpectedMinutesInOven()
-        {
-            return new TimeOnly(00:40);
-        }
-        // TODO: define the 'RemainingMinutesInOven()' method
 
-        // TODO: define the 'PreparationTimeInMinutes()' method
-
-        // TODO: define the 'ElapsedTimeInMinutes()' method
-    }
     class BirdCount
     {
         private int[] birdsPerDay;
